@@ -1,0 +1,12 @@
+{
+	"name": "Get rid of ATARNotes banner",
+	"version": "0.0.1",
+	"manifest_version":2,
+	"content_scripts": [
+    {
+        "matches": ["http://*.atarnotes.com/*", "https://*.atarnotes.com/*"],
+        "css": ["content.css"],
+        "run_at": "document_end"
+    }
+]
+}
